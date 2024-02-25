@@ -50,48 +50,52 @@ h3 {
     box-sizing: box;
 }
 
+
+
+.container {
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-sizing: box;
+        
+}
+
 .team-member {
     padding: 20px 30px 40px 10px;
     margin-bottom: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-
+    
 }
 
-/* .team-member img {
+.team-member img {
     width: 100%;
     height: auto;
-} */
+}
 
 
 @media screen and (max-width: 767px) {
-    .BoxImg {
-        width: 270px;
-        height: 320px;
-        margin-right: 0px;
-    }
-
-    .team-member {
-        min-width: 256px;
+    .team-member img {
+        width: 256px;
+        height: auto;
     }
 }
 
 @media screen and (min-width: 768px) {
     .team-member {
         display: flex;
-        min-width: 150px;
     }
-
-    .BoxImg {
+    .team-member img {
         width: 150px;
-        height: 210px;
+        height: auto;
         margin-right: 20px;
     }
-
     .team-member .info {
         flex: 1;
     }
 }
+
 
 
 /* .comment-section {
