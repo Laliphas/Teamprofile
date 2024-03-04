@@ -205,8 +205,17 @@ td {
     /* Allow vertical resizing of the textarea */
 }
 
+/* project page */
 
 h1 {
+    text-align: center;
+}
+
+.presenttext {
+    margin-left: 10%;
+}
+
+.demotext {
     text-align: center;
 }
 
@@ -217,9 +226,30 @@ h1 {
 
 .project-description {
     flex: 1;
+    text-align: center;
+    margin-top: 1%;
 }
 
 .project-video,
 .presentation {
     margin-top: 20px;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    /* Adjustments for screens smaller than 768px */
+    .project-details {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .project-description {
+        order: 2; /* Move project description below other elements */
+        margin-top: 20px; /* Add margin to separate from other elements */
+    }
+
+    .project-video,
+    .presentation {
+        width: 100%; /* Set width to 100% for full responsiveness */
+    }
 }
