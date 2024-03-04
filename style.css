@@ -1,14 +1,18 @@
 
 table {
     width: 100%;
-    max-width: 400px; /* Set max-width to prevent form from expanding too much */
-    margin: 0 auto; /* Center the form */
+    max-width: 400px;
+    /* Set max-width to prevent form from expanding too much */
+    margin: 0 auto;
+    /* Center the form */
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-th, td {
-    padding: 8px; /* Reduce padding for smaller screens */
+th,
+td {
+    padding: 8px;
+    /* Reduce padding for smaller screens */
     text-align: left;
     border: 1px solid #ddd;
 
@@ -39,8 +43,18 @@ h3 {
 
 
 .container {
+    /* max-width: 1200px; */
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-sizing: box;
+}
+
+
+
+.container {
     max-width: 1200px;
-    padding: 20px;
+    padding: 10px;
     margin: 0 auto;
     background-color: #fff;
     box-sizing: box;
@@ -48,7 +62,7 @@ h3 {
 }
 
 .team-member {
-    padding: 20px;
+    padding: 20px 30px 40px 10px;
     margin-bottom: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -60,7 +74,7 @@ h3 {
     height: auto;
 }
 
-//mobile
+
 @media screen and (max-width: 767px) {
     .team-member img {
         width: 256px;
@@ -83,57 +97,96 @@ h3 {
 }
 
 
-.comment-section {
 
+/* .comment-section {
 
-}
+ใช้ first-child เเทน
+} */
 
 .comment {
-
+    background-color: #333333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 40px 30px 30px 10px;
+    margin-bottom: 30px;
 }
+
+.comment:first-child {
+    margin-top: 40px;
+}
+
 .author {
-
+    font-weight: 600;
 }
-.date {
 
+.date {
+    font-weight: 600;
+    color: gray;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: none;
 }
 
 /* CSS for making the comment form responsive */
 .comment-form {
     width: 100%;
-    max-width: none; /* Remove the max-width */
-    margin: 0 auto; /* Center the form */
-    th, td {
+    max-width: none;
+    /* Remove the max-width */
+    margin: 0 auto;
+
+    /* Center the form */
+    th,
+    td {
         border: none;
     }
 }
 
 .comment-form td {
-    padding: 8px; /* Reduce padding for smaller screens */
+    padding: 8px;
+    /* Reduce padding for smaller screens */
 }
 
 .comment-form input[type="text"],
 .comment-form textarea {
-    width: calc(100% - 16px); /* Make text fields full width, accounting for padding and border */
-    box-sizing: border-box; /* Include padding and border in width */
+    width: calc(100% - 16px);
+    /* Make text fields full width, accounting for padding and border */
+    box-sizing: border-box;
+    /* Include padding and border in width */
 }
 
-.comment-form input[type="submit"]{
-    width: 48%; /* Set width for submit and reset buttons */
-    padding: 8px; /* Add padding to buttons */
-    box-sizing: border-box; /* Include padding in width */
-    
+.comment-form input[type="submit"] {
+    width: 48%;
+    /* Set width for submit and reset buttons */
+    padding: 8px;
+    /* Add padding to buttons */
+    box-sizing: border-box;
+    /* Include padding in width */
+
 }
+
 .comment-form input[type="reset"] {
-    width: 48%; /* Set width for submit and reset buttons */
-    padding: 8px; /* Add padding to buttons */
-    box-sizing: border-box; /* Include padding in width */
+    width: 48%;
+    /* Set width for submit and reset buttons */
+    padding: 8px;
+    /* Add padding to buttons */
+    box-sizing: border-box;
+    /* Include padding in width */
 }
 
 .comment-form textarea {
-    resize: vertical; /* Allow vertical resizing of the textarea */
+    resize: vertical;
+    /* Allow vertical resizing of the textarea */
 }
-
 
 
 
