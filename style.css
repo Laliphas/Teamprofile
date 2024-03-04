@@ -16,6 +16,7 @@ th, td {
 
 h3 {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 /* Menu section */
@@ -27,6 +28,7 @@ h3 {
     color: #fff;
     text-decoration: none;
     justify-content: center;
+    margin: 0px;
 }
 
 .menu a {
@@ -60,7 +62,6 @@ h3 {
     height: auto;
 }
 
-//mobile
 @media screen and (max-width: 767px) {
     .team-member img {
         width: 256px;
@@ -84,18 +85,29 @@ h3 {
 
 
 .comment-section {
-
-
+    background-color: #ffffff;
+    padding: 20px;
 }
 
 .comment {
-
+    color: #ffffff;
+    border: 1px solid #ccc;
+    background-color: #333;
+    padding: 20px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
+
 .author {
-
+    font-weight: bold;
 }
-.date {
 
+.date {
+    color: gray;
+    font-style: italic;
 }
 
 /* CSS for making the comment form responsive */

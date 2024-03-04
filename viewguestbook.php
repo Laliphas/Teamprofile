@@ -32,12 +32,12 @@
     <!-- Menu section -->
 <div class="menu" id="menu">
     <a href="CV.html">Home</a>
-    <a href="#">Project</a>
-    <a href="viewguestbook.php">Guestbook</a>
+    <a href="project.html">Project</a>
+    <a href="viewguestbook.php">Review Us</a>
 </div>
 
 <div class="container">
-    <h3>Comment from guests</h3> 
+    <h3>Your Reviews</h3> 
     <?php
     // Connect to server and select database.
     include("config.php");
