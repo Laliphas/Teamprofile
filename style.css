@@ -1,4 +1,7 @@
 
+body{
+    background-color: #f6f1ee;
+}
 table {
     width: 100%;
     max-width: 400px;
@@ -6,7 +9,8 @@ table {
     margin: 0 auto;
     /* Center the form */
     border-collapse: collapse;
-    border-spacing: 0;
+    border-spacing: 600;
+    
 }
 
 th,
@@ -15,7 +19,7 @@ td {
     /* Reduce padding for smaller screens */
     text-align: left;
     border: 1px solid #ddd;
-
+    border-radius: 10px;
 }
 
 h3 {
@@ -26,28 +30,34 @@ h3 {
 .menu {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #F6C270;
     display: flex;
-    color: #fff;
+    color: #f6f1ee;
     text-decoration: none;
     justify-content: center;
 }
 
 .menu a {
-    color: #fff;
+    color: black;
     padding: 10px 30px;
     display: block;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
     text-decoration: none;
 }
 
-
+.menu a:hover {
+    background-color: peru;
+    border-radius: 300px;
+  }
 
 .container {
     /* max-width: 1200px; */
     padding: 10px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #f6f1ee;
     box-sizing: box;
+    border-radius: 10px;
 }
 
 
@@ -56,17 +66,23 @@ h3 {
     max-width: 1200px;
     padding: 10px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color:#f6f1ee;
+    font-family: 'Work Sans', sans-serif;
     box-sizing: box;
+    border-radius: 10px;
+    
         
 }
 
 .team-member {
     padding: 20px 30px 40px 10px;
     margin-bottom: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    background-color: #f6f1ee;
+    box-shadow: 0 0 10px rgb(55, 59, 65);
     
+    border-radius: 10px;
+    font-family: "Kodchasan", sans-serif;
+             
 }
 
 .team-member img {
@@ -104,7 +120,7 @@ h3 {
 } */
 
 .comment {
-    background-color: #333333;
+    background-color: #F6C270;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
@@ -129,6 +145,7 @@ h3 {
 
 table {
     border-collapse: collapse;
+    border-radius: 10px;
 }
 
 table,
