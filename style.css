@@ -204,3 +204,22 @@ td {
     resize: vertical;
     /* Allow vertical resizing of the textarea */
 }
+
+
+h1 {
+    text-align: center;
+}
+
+.project-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-description {
+    flex: 1;
+}
+
+.project-video,
+.presentation {
+    margin-top: 20px;
+}
