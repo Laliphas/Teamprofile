@@ -205,11 +205,20 @@ td {
     /* Allow vertical resizing of the textarea */
 }
 
+/* project page */
 
 h1 {
     text-align: center;
     font-family: "Kodchasan", sans-serif;
     align-items: center;
+}
+
+.presenttext {
+    margin-left: 10%;
+}
+
+.demotext {
+    text-align: center;
 }
 
 .project-details {
