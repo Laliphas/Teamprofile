@@ -80,10 +80,8 @@ h3 {
     margin-bottom: 20px;
     background-color: #f6f1ee;
     box-shadow: 0 0 10px rgb(55, 59, 65);
-    
     border-radius: 10px;
-    font-family: "Kodchasan", sans-serif;
-             
+    font-family: "Kodchasan", sans-serif;      
 }
 
 .team-member img {
