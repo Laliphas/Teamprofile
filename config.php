@@ -2,7 +2,7 @@
 $hostname = "localhost"; // Change this to your MySQL server hostname
 $username = "root";
 $password = "";
-$database = "id21905082_if0_36019890_guestbook";
+$database = "if0_36019890_guestbook";
 
 // Create connection
 $objCon = mysqli_connect($hostname, $username, $password, $database);

@@ -42,7 +42,7 @@ h3 {
     padding: 10px 30px;
     display: block;
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Kodchasan', sans-serif;
     text-decoration: none;
 }
 
@@ -58,6 +58,7 @@ h3 {
     background-color: #f6f1ee;
     box-sizing: box;
     border-radius: 10px;
+    font-family: 'Kodchasan', sans-serif;
 }
 
 
@@ -67,7 +68,7 @@ h3 {
     padding: 10px;
     margin: 0 auto;
     background-color:#f6f1ee;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Kodchasan', sans-serif;
     box-sizing: box;
     border-radius: 10px;
     
@@ -120,12 +121,14 @@ h3 {
 } */
 
 .comment {
-    background-color: #F6C270;
-    color: #fff;
+    background-color: pink;
+    color: black;
     font-size: 16px;
     font-weight: 400;
-    padding: 40px 30px 30px 10px;
+    padding: 40px 30px 30px 30px;
     margin-bottom: 30px;
+    font-family: 'Kodchasan', sans-serif;
+    border-radius: 40px;
 }
 
 .comment:first-child {
@@ -134,13 +137,15 @@ h3 {
 
 .author {
     font-weight: 600;
+    font-family: 'Kodchasan', sans-serif;
 }
 
 .date {
     font-weight: 600;
-    color: gray;
+    color: #5583a6;
     font-style: italic;
     margin-left: 5px;
+    font-family: 'Kodchasan', sans-serif;
 }
 
 table {
